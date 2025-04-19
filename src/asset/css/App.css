@@ -1,0 +1,39 @@
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #000;
+  background-image: url(../image/bg-image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#root {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.7) 2.72%,
+      rgba(0, 0, 0, 0) 35.89%,
+      rgba(0, 0, 0, 0.53) 100%
+    ),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.9) 33.18%, rgba(0, 0, 0, 0) 80.52%);
+  border: 1px solid #000000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+nav {
+  height: 10%;
+  /* padding: 10px; */
+}
+.main {
+  height: 50%;
+}
+.section {
+  min-height: 35%;
+}
+.footer {
+  height: 5%;
+  color: azure;
+}
