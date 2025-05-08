@@ -1,9 +1,10 @@
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
-import "../src/asset/css/App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navigation from "./component/Navigation";
 import Footer from "./component/Footer";
 import Search from "./pages/Search";
 import Home from "./pages/Home";
+
+import "../src/asset/css/App.css";
 
 function App() {
   // const [show, setshow] = useState(false);
